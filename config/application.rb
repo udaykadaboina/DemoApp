@@ -34,5 +34,7 @@ module DemoApp
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.i18n.available_locales = [:en, :pt, :de]
   end
 end

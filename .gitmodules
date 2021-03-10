@@ -1,0 +1,3 @@
+[submodule "lib/globalization"]
+	path = lib/globalization
+	url = https://github.com/udaykadaboina/locale-factory.git

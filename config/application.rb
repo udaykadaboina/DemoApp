@@ -36,5 +36,7 @@ module DemoApp
     config.generators.system_tests = nil
 
     config.i18n.available_locales = [:en, :pt, :de]
+
+    config.i18n.load_path += Dir[Rails.root.join('lib','globalization', 'locales', '*.{rb,yml}')]
   end
 end

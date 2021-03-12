@@ -1,6 +1,8 @@
-<h1>Pages#welcome</h1>
-<p>Find me in app/views/pages/welcome.html.erb</p>
+<h1 style="color: green;">Pages#welcome</h1>
+<p>Demo Page for showing translations</p>
 
+<div style="background-color: antiquewhite;"></div>
 <%= t :hello %>
-
-<%= t :world %>
+<hr>
+<br />
+The word "World" in <%= params[:locale] %> locale means <%= t :world %>

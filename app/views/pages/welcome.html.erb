@@ -1,8 +1,8 @@
-<h1 style="color: green;">Pages#welcome</h1>
+<h1 style="color: green;"><%= t :title %></h1>
 <p>Demo Page for showing translations</p>
 
 <div style="background-color: antiquewhite;"></div>
 <%= t :hello %>
 <hr>
 <br />
-The word "World" in <%= params[:locale] %> locale means <%= t :world %>
+The word "World" in <span style="color: #ea6969"><%= params[:locale] %></span> locale means <%= t :world %>
